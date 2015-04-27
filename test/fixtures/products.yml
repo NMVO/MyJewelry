@@ -9,3 +9,8 @@ two:
   name: MyString
   description: MyText
   price: 1.5
+
+ruby:
+  name: MyString
+  description: MyText
+  price: 1.5
