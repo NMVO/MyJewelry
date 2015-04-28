@@ -10,7 +10,7 @@ class ProductTest < ActiveSupport::TestCase
   end
 
   test "product price must be positive" do
-    product = Product.new(name:       "My Book Title",
+    product = Product.new(name:       "My Jewelry",
                           description: "yyy")
     product.price = -1
     assert product.invalid?
@@ -27,7 +27,7 @@ class ProductTest < ActiveSupport::TestCase
   end
 
   def new_product(image_url)
-    Product.new(name:       "My Book Title",
+    Product.new(name:       "My Jewelry",
                 description: "yyy",
                 price:       1)
   end
